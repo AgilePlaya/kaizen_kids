@@ -10,6 +10,12 @@ interface PageProps {
   }>;
 }
 
+export async function generateStaticParams(){
+  return []
+}
+
+// Multiple versions of this page will be statically generated
+// using the `params` returned by `generateStaticParams`
 export default async function Page(props: PageProps) {
   const builderModelName = "page";
 
