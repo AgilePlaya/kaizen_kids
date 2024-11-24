@@ -10,8 +10,8 @@ interface PageProps {
   }>;
 }
 
-export async function generateStaticParams(){
-  return []
+export async function generateStaticParams() {
+  return [];
 }
 
 // Multiple versions of this page will be statically generated
