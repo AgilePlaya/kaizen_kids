@@ -1,0 +1,21 @@
+{
+  "name": "kaizen_kids",
+  "version": "0.1.0",
+  "description": "Kaizen Kids website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgilePlaya/kaizen_kids.git"
+  },
+  "author": "AgilePlaya",
+  "bugs": {
+    "url": "https://github.com/AgilePlaya/kaizen_kids/issues"
+  },
+  "homepage": "https://github.com/AgilePlaya/kaizen_kids#readme",
+  "devDependencies": {
+    "@wixc3/react-board": "^4.5.3"
+  }
+}
